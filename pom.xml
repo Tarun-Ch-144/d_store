@@ -64,9 +64,9 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
-			<groupId>cfaf5287-a477-4144-81a9-b12edd7bd71e</groupId>
+			<groupId>0d2b70ca-e777-43d9-b633-ba6581a1b3ae</groupId>
 			<artifactId>d_store</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.0</version>
 			<classifier>raml</classifier>
 			<type>zip</type>
 		</dependency>
