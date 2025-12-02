@@ -16,9 +16,6 @@ jobs:
         distribution: "temurin"
         java-version: '21'
 
-    - name: Deploy to Exchange
-      run: mvn deploy -s settings.xml
-
     - name: Deploy to CloudHub
       run: |
         mvn deploy -DmuleDeploy
