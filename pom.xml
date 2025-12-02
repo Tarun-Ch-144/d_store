@@ -36,7 +36,7 @@
           <connectedAppClientSecret>0276654E10C64127b44B707D4F431591</connectedAppClientSecret>
     <provider>MC</provider>
     <environment>Sandbox</environment>
-    <target></target>
+    <target>Cloudhub-US-East-2</target>
     <muleVersion>4.9.0</muleVersion>
     <applicationName>wave-integration-cicd</applicationName>
     <replicas>1</replicas>
