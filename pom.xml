@@ -25,11 +25,28 @@
 				<version>3.2.0</version>
 			</plugin>
 			<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
-			</plugin>
+    <groupId>org.mule.tools.maven</groupId>
+    <artifactId>mule-maven-plugin</artifactId>
+    <version>${mule.maven.plugin.version}</version>
+    <extensions>true</extensions>
+    <configuration>
+        <cloudhub2Deployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <connectedAppClientId>2481055c85b94fb1861bd6c7f964047d</connectedAppClientId>
+          <connectedAppClientSecret>0276654E10C64127b44B707D4F431591</connectedAppClientSecret>
+    <provider>MC</provider>
+    <environment>Sandbox</environment>
+    <target></target>
+    <muleVersion>4.9.0</muleVersion>
+    <applicationName>wave-integration-cicd</applicationName>
+    <replicas>1</replicas>
+    <vCores>0.1</vCores>
+    <skipDeploymentVerification>true</skipDeploymentVerification>
+    <deploymentSettings/>
+</cloudhub2Deployment>
+    </configuration>
+</plugin>
+			
 		</plugins>
 	</build>
 
